@@ -11,11 +11,16 @@ for (i = 0; i < userWord.length; i++) {
   arrWord.push(letters);
 }
 
-// array reverse
+// array parola inserita reverse
 const reverseWord = arrWord.reverse();
 
 for (i = 0; i < reverseWord.length; i++) {
   const lettersReverse = reverseWord[i];
-
   console.log(lettersReverse);
+
+  if (lettersReverse == userWord[i]) {
+    console.log("la parola è palindroma");
+  } else {
+    console.log("la parola non è polindroma");
+  }
 }

@@ -18,7 +18,7 @@ Dichiariamo chi ha vinto.
 ## svolgimento traccia 1
 
 - chiedo una parola da inserire
-- creo un avariabile di riscontro per la parola
+- creo una variabile di riscontro per la parola
 - creo un ciclo for che vada a selezionare le varie lettere della parola scritta
 - studio qualcosa che mi aiuti a ricomporre la parola al contrario
 - se è uguale alla prima allora è palindroma
