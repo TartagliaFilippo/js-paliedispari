@@ -1,6 +1,9 @@
 // chiedo le informazioni all'utente
-const evenOrOdd = prompt("pari o dispari?");
-const userNumber = parseInt(prompt("scrivi un numero da 1 a 5"));
+// const evenOrOdd = prompt("pari o dispari?");
+// const userNumber = parseInt(prompt("scrivi un numero da 1 a 5"));
+
+// variabile somma
+let sum = 0;
 
 // stabilisco cos'è pari e cosa è dispari
 let even;
@@ -21,3 +24,6 @@ function getRandomNumber(min, max) {
 
 const computerNumber = getRandomNumber(1, 5);
 console.log(computerNumber);
+
+// sommo i numeri
+sum = userNumber + computerNumber;
